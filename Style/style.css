@@ -1,0 +1,12 @@
+.banner{
+    width: 100%;
+    
+    
+}
+
+.banner-content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
