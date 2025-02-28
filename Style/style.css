@@ -1,12 +1,29 @@
 .banner{
     width: 100%;
-    
-    
 }
 
 .banner-content{
+    padding: 16px 0px 16px 0px;
     display: flex;
     text-align: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
+}
+
+
+/*Estilizando o logo*/
+.logo{
+    background-color: rgba(0, 0, 0, .2); /*Inserindo a sombra por trás do logo*/
+    height: 260px;
+    width: 260px;
+    margin: auto;/*Forma de centralizar o logo*/
+    border-radius: 50%; /*Deixando a sombra redonda*/
+    padding: 16px 16px 16px 16px;
+}
+
+.logo img {
+    margin: auto; /*Centralizando imagem*/
+    width: 100%; /*Ajustando proporção*/
+    height: 100%;
+    object-fit: contain; /*Escolhendo o comportamento da imagem, nesse caso para se dimensionar de acordo com a proporção ajustada*/
 }
