@@ -43,3 +43,11 @@ h1{
     background-clip: text;
     -webkit-background-clip: text;/*Recortar o background no formato do texto*/
 }
+
+.banner-content p{
+    width: 600px;
+    margin: auto;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+}
