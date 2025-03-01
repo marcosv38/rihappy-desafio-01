@@ -1,3 +1,9 @@
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+
 .banner{
     width: 100%;
 }
@@ -26,4 +32,14 @@
     width: 100%; /*Ajustando proporção*/
     height: 100%;
     object-fit: contain; /*Escolhendo o comportamento da imagem, nesse caso para se dimensionar de acordo com a proporção ajustada*/
+}
+
+h1{
+    font-size: 2.5rem; 
+    font-weight: 900;
+    text-transform: uppercase; /*Colocar todas as letras em maiúsculo */
+    color: transparent; /*Necessário para a aplicação do gradiente linear, pois ele será aplicado ao background do texto*/
+    background: -webkit-linear-gradient(#33A8DB, #1472B7); /*Gradiente linear*/
+    background-clip: text;
+    -webkit-background-clip: text;/*Recortar o background no formato do texto*/
 }
